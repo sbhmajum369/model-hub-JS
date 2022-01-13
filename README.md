@@ -1,9 +1,12 @@
 # DL models in javaScript  
 
-This repo hosts JavaScript models, converted from Python, including a conversion script for each of the following frameworks:  
+This repo hosts JavaScript development models along with their tests.
+
+Conversion script for each of the following frameworks coming soon:  
 * [PyTorch](https://pytorch.org/hub/)  
 * [Hugging Face](https://huggingface.co/models)  
 * [TensorFlow](https://www.tensorflow.org/resources/models-datasets)
+
 
 ## Testing
 
