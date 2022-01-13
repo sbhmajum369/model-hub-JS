@@ -8,7 +8,7 @@ import * as tf from '@tensorflow/tfjs';
 import * as tfnode from '@tensorflow/tfjs-node';
 
 const {YOLO_CLASSES} = require('./object_items.js');
-const PATH_YOLOV5_s = './yolov5/src/yolov5s/model.json';
+const PATH_YOLOV5_s = './yolov5/src/model_s/model.json';
 
 class yolo_model_v5 {
 	constructor(mdlPath, classNames) {

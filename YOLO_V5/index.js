@@ -5,13 +5,13 @@ const path = require('path');
 const fs = require('fs');
 require('regenerator-runtime');
 
-const {yolov5s} = require('./lib_modules/yolov5');
+const {yolov5s} =  require('./yolov5');
 
 
 const main = async() => {
 	// Reading Image
 	
-	const imgName = 'Pic_7_640.jpg';
+	const imgName = 'Pic_3_640.jpg';
 	let imageBuffer = fs.readFileSync(path.join(__dirname, `./test_imgs/${imgName}`));  // Pic_8_640.png  Zidane_640.jpg
 	if (imageBuffer) console.log("\nImage Loaded");
 	let image0 = tfnode.node.decodeImage(imageBuffer, 3);
@@ -30,7 +30,7 @@ const main = async() => {
 
 	if (yolov5s.model != '') {
 		console.log("\nModel loaded\n");
-		// console.log(yolov5s.path);
+		// console.log(yolov5s.classNames);
 		const result = await yolov5s.predict(image);
 		predictions = yolov5s.getDetections(result);
 		// model.dispose();
