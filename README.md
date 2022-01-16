@@ -8,7 +8,7 @@ Performance and Evaluation data coming soon...
 
 ### Models hosted  
 
-**YOLO v5**  
+* **YOLO v5**  
 Try it as a NPM package `npm i yolov5`  
 
 
