@@ -68,7 +68,7 @@ View model parameters, methods, functions: `console.log(yolo.details())`
 ### Output  
 
 Prediction format: 
-```json
+```javascript
 {
 	"bbox": [409, 1, 639, 169],		// [x0, y0, x1, y1]
 	"score": 0.6489,				// probability score
@@ -89,10 +89,10 @@ Some hardware optimized models run faster in CPU rather than GPU.
 
 ## Test  
 
-* `npm test`
+* coming soon ...
 
 
-### Model conversion using tfjs-converter [Link](https://www.tensorflow.org/js/guide/conversion)  
+## Model conversion using tfjs-converter [Link](https://www.tensorflow.org/js/guide/conversion)  
 
 `tensorflowjs_converter \
     --input_format=tf_saved_model \
