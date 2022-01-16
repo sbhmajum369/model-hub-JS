@@ -1,15 +1,16 @@
 {
-  "name": "test_pack",
+  "name": "yolov5",
   "version": "1.0.0",
-  "description": "Package testing",
+  "description": "yolov5 small",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "SM",
+  "author": "Subhranil Majumder",
   "license": "MIT",
   "dependencies": {
-    "@tensorflow/tfjs-node": "^3.12.0"
+    "@tensorflow/tfjs-node": "^3.13.0",
+    "@tensorflow/tfjs-node-gpu": "^3.13.0"
   },
   "devDependencies": {
     "regenerator-runtime": "^0.13.9"
