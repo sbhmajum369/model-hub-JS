@@ -1,16 +1,16 @@
 # DL models in javaScript  
 
-This repo hosts JavaScript development models along with their tests.
-
-Conversion script for each of the following frameworks coming soon:  
-* [PyTorch](https://pytorch.org/hub/)  
-* [Hugging Face](https://huggingface.co/models)  
-* [TensorFlow](https://www.tensorflow.org/resources/models-datasets)
+This is a open-source project for the development of javascript based Deep Learning models that can be used in both Backend(Node.js) and Frontend as an API.
 
 
-## Testing
+Performance and Evaluation data coming soon...
 
-[Jest](https://github.com/facebook/jest#getting-started) for testing.
 
-[Lerna](https://github.com/lerna/lerna) for managing multi-package repositories (sometimes called monorepos).
+### Models hosted  
+
+**YOLO v5**  
+Try it as a NPM package `npm i yolov5`  
+
+
+***Contributions are WELCOME***
 

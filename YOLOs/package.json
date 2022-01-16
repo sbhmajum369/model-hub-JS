@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "yolov5 small",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
   "author": "Subhranil Majumder",
   "license": "MIT",
   "dependencies": {

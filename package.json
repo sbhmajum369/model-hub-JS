@@ -1,0 +1,26 @@
+{
+  "name": "model-hub-js",
+  "description": "This is a open-source project for the development of javascript based Deep Learning models that can be used in both Backend(Node.js) and Frontend as an API.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "regenerator-runtime": "^0.13.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbhmajum369/model-hub-JS.git"
+  },
+  "author": "Subhranil Majumder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sbhmajum369/model-hub-JS/issues"
+  },
+  "homepage": "https://github.com/sbhmajum369/model-hub-JS#readme",
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.13.0",
+    "@tensorflow/tfjs-node": "^3.13.0"
+  }
+}
