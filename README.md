@@ -12,5 +12,11 @@ Performance and Evaluation data coming soon...
 Try it as a NPM package `npm i yolov5`  
 
 
+## Test  
+
+Testing with [mocha](https://mochajs.org/): `npm test`
+
+
+
 ***Contributions are WELCOME***
 

@@ -24,7 +24,7 @@ const path = require('path');
 const fs = require('fs');
 require('regenerator-runtime');
 
-const yolov5 =  require('./yolov5');
+const yolov5 =  require('./YOLO');
 
 
 const main = async() => {
