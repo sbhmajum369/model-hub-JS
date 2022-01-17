@@ -24,7 +24,7 @@ const path = require('path');
 const fs = require('fs');
 require('regenerator-runtime');
 
-const {YOLOv5s} =  require('./yolov5');
+const yolov5 =  require('./yolov5');
 
 
 const main = async() => {
@@ -41,7 +41,7 @@ const main = async() => {
 	image = image.expandDims(0);
 	
 	// Loading Model
-	const yolo = YOLOv5s;
+	const yolo = yolov5;
 	await yolo.load();
 	let predictions;
 
