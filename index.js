@@ -2,13 +2,17 @@
 const tf = require('@tensorflow/tfjs');
 const tfnode = require('@tensorflow/tfjs-node');
 require('regenerator-runtime');
-const {YOLOv5s} =  require('./YOLOs');
+const yolo =  require('./YOLO');
+
 
 const main = async() => {
-	const yolo = YOLOv5s;
-	await yolo.load();
+	// Model import 
+	const yolov5 = yolo;
+	console.log(yolov5.details());
 
-	console.log(yolo.classNames);
+	await yolov5.load();
+
+	// console.log(yolov5.classNames);
 
 };
 

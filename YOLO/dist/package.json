@@ -1,0 +1,8 @@
+{
+  "name": "dist",
+  "version": "1.0.0",
+  "description": "YOLO v5 small",
+  "main": "build/yolov5.min.js",
+  "author": "Subhranil Majumder",
+  "license": "MIT"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "yolov5",
+  "version": "1.0.0",
+  "description": "YOLO v5 small",
+  "main": "index.js",
+  "author": "Subhranil Majumder",
+  "license": "MIT"
+}
