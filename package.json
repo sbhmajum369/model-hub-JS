@@ -3,11 +3,9 @@
   "description": "This is a open-source project for the development of javascript based Deep Learning models.",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {
-    "regenerator-runtime": "^0.13.9"
-  },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node ."
   },
   "repository": {
     "type": "git",
@@ -21,7 +19,10 @@
   "homepage": "https://github.com/sbhmajum369/model-hub-JS#readme",
   "dependencies": {
     "@tensorflow/tfjs": "^3.13.0",
-    "@tensorflow/tfjs-node": "^3.13.0",
-    "mocha": "^9.1.4"
+    "@tensorflow/tfjs-node": "^3.13.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.4",
+    "regenerator-runtime": "^0.13.9"
   }
 }

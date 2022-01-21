@@ -2,7 +2,7 @@
 const tf = require('@tensorflow/tfjs');
 const tfnode = require('@tensorflow/tfjs-node');
 require('regenerator-runtime');
-const yolo =  require('./YOLO');
+const yolo =  require('./packages/YOLO');
 
 
 const main = async() => {
@@ -10,9 +10,9 @@ const main = async() => {
 	const yolov5 = yolo;
 	console.log(yolov5.details());
 
-	await yolov5.load();
+	const status = await yolov5.load();
 
-	// console.log(yolov5.classNames);
+	console.log("Loading stat:", status);
 
 };
 
