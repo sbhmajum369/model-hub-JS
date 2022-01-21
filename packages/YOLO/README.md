@@ -89,7 +89,7 @@ Some hardware optimized models run faster in CPU rather than GPU.
 
 ## Test  
 
-* coming soon ...
+* Create a file named `yolo.test.js` in **test** folder and test it using `mocha`.
 
 
 ## Model conversion using tfjs-converter [Link](https://www.tensorflow.org/js/guide/conversion)  
